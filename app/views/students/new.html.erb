@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--<form action="<%= students_path %>" method="POST">-->
 <!--  <label>Student Form:</label><br>-->
 <!--  <input type="text" id="first_name" name="student[name]"><br>-->
@@ -14,3 +15,13 @@
  <%= text_field_tag :last_name %><br>
   <%= submit_tag "Submit Student" %>
 <% end %>
+=======
+<form action="<%= students_path %>" method="POST">
+  <label>Student Form:</label><br>
+  <input type="text" id="first_name" name="student[name]"><br>
+  <input type="text" id="last_name" name="student[name]"><br>
+  <input type="submit" value="Submit Student">
+</form>
+
+<%= params.inspect %>
+>>>>>>> 9d6554a6a787b44e237cf267eb36af6c8baf0f93
